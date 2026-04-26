@@ -10,7 +10,7 @@ export interface Candidate {
     party: string;
     bio: string;
     color_hex: string;
-    manifesto_text: string;
+    manifesto_text?: string;
     seats_won?: number;
     vote_share?: number;
     symbol_emoji?: string;

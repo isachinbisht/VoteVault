@@ -173,7 +173,7 @@ export default function BoothScene({ currentStep, onStationClick }: {
     currentStep: string;
     onStationClick: (step: string) => void;
 }) {
-    const controlsRef = useRef<OrbitControlsImpl>(null);
+    const controlsRef = useRef<any>(null);
 
     const stepColors: Record<string, string> = {
         id_check: '#3b82f6',
